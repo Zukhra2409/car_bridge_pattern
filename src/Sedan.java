@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class Sedan extends Car {
+    public Sedan(Engine engine) {
+        super(engine);
+    }
 
-public class Sedan {
+    @Override
+    public void drive() {
+        System.out.println("Driving a Sedan with " + engine.getType());
+    }
 }

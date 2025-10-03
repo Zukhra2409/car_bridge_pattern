@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+public abstract class Car {
+    protected Engine engine;
 
-public class Car {
+    public Car(Engine engine) {
+        this.engine = engine;
+    }
+
+    public abstract void drive();
 }

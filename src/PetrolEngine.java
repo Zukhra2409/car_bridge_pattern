@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class PetrolEngine {
+public class PetrolEngine implements Engine {
+    @Override
+    public String getType() {
+        return "Petrol Engine";
+    }
 }

@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class SUV extends Car {
+    public SUV(Engine engine) {
+        super(engine);
+    }
 
-public class SUV {
+    @Override
+    public void drive() {
+        System.out.println("Driving an SUV with " + engine.getType());
+    }
 }

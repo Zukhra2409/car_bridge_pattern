@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Engine {
+public interface Engine {
+    String getType();
 }
